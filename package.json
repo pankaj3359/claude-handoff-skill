@@ -5,7 +5,7 @@
   "license": "MIT",
   "type": "module",
   "bin": {
-    "claude-handoff-skill": "./bin/claude-handoff-skill.js"
+    "claude-handoff-skill": "bin/claude-handoff-skill.js"
   },
   "files": [
     "skill",
@@ -24,6 +24,6 @@
     "session"
   ],
   "scripts": {
-    "test": "node ./bin/claude-handoff-skill.js --help"
+    "test": "node bin/claude-handoff-skill.js --help"
   }
 }
