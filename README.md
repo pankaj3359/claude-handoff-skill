@@ -2,6 +2,8 @@
 
 A [Claude Code](https://claude.com/claude-code) skill that generates a paste-ready **session handoff prompt** so the next session picks up your work cold — no re-exploration, no lost context.
 
+📦 **Also available on npm:** https://www.npmjs.com/package/claude-handoff-skill
+
 When you type `/handoff` (or "wrap up the session", "session handoff", etc.), Claude gathers the state of the current session — git status, recent commits, plan file, todos, files touched, decisions made, environment quirks — and renders a structured 5-section prompt inside a single markdown code block. You copy it. You paste it as the opening prompt of your next Claude Code session. That session starts already aware of where you left off.
 
 ## Install
